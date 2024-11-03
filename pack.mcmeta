@@ -1,0 +1,11 @@
+{
+    "pack": {
+		"id": "forever_winter_datapack",
+		"supported_formats": [
+			48,
+			57
+		],
+        "pack_format": 48,
+        "description": "Makes all biomes on the overworld snowy."
+    }
+}
