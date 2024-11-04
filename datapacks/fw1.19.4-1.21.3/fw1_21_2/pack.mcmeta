@@ -1,0 +1,10 @@
+{
+    "pack": {
+		"supported_formats": {
+				"min_inclusive": 57,
+				"max_inclusive": 57 
+			},
+        "pack_format": 57,
+        "description": "§f[1.21.2 - 1.21.3] §bMakes all biomes on the overworld snowy."
+    }
+}

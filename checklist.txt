@@ -1,0 +1,16 @@
+Version: 1.1.0
+
+O - 57 - 1.21.2/3
+O - 48 - 1.21(.1)
+O - 41 - 1.20.5/6
+O - 26 - 1.20.3/4
+O - 18 - 1.20.2
+O - 15 - 1.20(.1) - Shows warning about the datapack been made for a older version, but works fine
+O - 12 - 1.19.4
+X - 0 -
+
+
+
+
+
+

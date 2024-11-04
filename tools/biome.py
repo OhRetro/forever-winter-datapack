@@ -64,7 +64,7 @@ def apply_values(directory: str):
             print("")
 
 if __name__ == "__main__":
-    target_ver = "1_20"
+    target_ver = "1_21_2"
     target_dir = f"../datapacks/fw{target_ver}/data/minecraft/worldgen/biome"
     filter(target_dir)
     apply_values(target_dir)
