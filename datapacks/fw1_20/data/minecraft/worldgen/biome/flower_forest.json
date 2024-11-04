@@ -60,7 +60,6 @@
             "minecraft:ore_redstone",
             "minecraft:ore_redstone_lower",
             "minecraft:ore_diamond",
-            "minecraft:ore_diamond_medium",
             "minecraft:ore_diamond_large",
             "minecraft:ore_diamond_buried",
             "minecraft:ore_lapis",
@@ -197,5 +196,5 @@
         "water_ambient": [],
         "water_creature": []
     },
-    "temperature": -0.7
+    "temperature": -0.5
 }

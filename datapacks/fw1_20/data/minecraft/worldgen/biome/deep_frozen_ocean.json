@@ -26,13 +26,17 @@
             "minecraft:lake_lava_surface"
         ],
         [
+            "minecraft:iceberg_packed",
+            "minecraft:iceberg_blue",
             "minecraft:amethyst_geode"
         ],
         [
             "minecraft:monster_room",
             "minecraft:monster_room_deep"
         ],
-        [],
+        [
+            "minecraft:blue_ice"
+        ],
         [],
         [
             "minecraft:ore_dirt",
@@ -77,10 +81,7 @@
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal",
             "minecraft:patch_sugar_cane",
-            "minecraft:patch_pumpkin",
-            "minecraft:seagrass_deep",
-            "minecraft:seagrass_simple",
-            "minecraft:kelp_cold"
+            "minecraft:patch_pumpkin"
         ],
         [
             "minecraft:freeze_top_layer"
@@ -98,7 +99,14 @@
             }
         ],
         "axolotls": [],
-        "creature": [],
+        "creature": [
+            {
+                "type": "minecraft:polar_bear",
+                "maxCount": 2,
+                "minCount": 1,
+                "weight": 1
+            }
+        ],
         "misc": [],
         "monster": [
             {
@@ -166,10 +174,10 @@
         ],
         "water_ambient": [
             {
-                "type": "minecraft:cod",
-                "maxCount": 6,
-                "minCount": 3,
-                "weight": 10
+                "type": "minecraft:salmon",
+                "maxCount": 5,
+                "minCount": 1,
+                "weight": 15
             }
         ],
         "water_creature": [
@@ -178,14 +186,9 @@
                 "maxCount": 4,
                 "minCount": 1,
                 "weight": 1
-            },
-            {
-                "type": "minecraft:dolphin",
-                "maxCount": 2,
-                "minCount": 1,
-                "weight": 1
             }
         ]
     },
-    "temperature": -0.5
+    "temperature": -0.5,
+    "temperature_modifier": "frozen"
 }

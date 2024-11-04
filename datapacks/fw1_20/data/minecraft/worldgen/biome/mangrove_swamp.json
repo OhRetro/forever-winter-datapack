@@ -9,7 +9,6 @@
     "downfall": 0.4,
     "effects": {
         "fog_color": 12638463,
-        "foliage_color": 9285927,
         "grass_color_modifier": "swamp",
         "mood_sound": {
             "block_search_extent": 8,
@@ -64,7 +63,6 @@
             "minecraft:ore_redstone",
             "minecraft:ore_redstone_lower",
             "minecraft:ore_diamond",
-            "minecraft:ore_diamond_medium",
             "minecraft:ore_diamond_large",
             "minecraft:ore_diamond_buried",
             "minecraft:ore_lapis",
@@ -135,7 +133,7 @@
                 "type": "minecraft:skeleton",
                 "maxCount": 4,
                 "minCount": 4,
-                "weight": 70
+                "weight": 100
             },
             {
                 "type": "minecraft:creeper",
@@ -166,12 +164,6 @@
                 "maxCount": 1,
                 "minCount": 1,
                 "weight": 1
-            },
-            {
-                "type": "minecraft:bogged",
-                "maxCount": 4,
-                "minCount": 4,
-                "weight": 30
             }
         ],
         "underground_water_creature": [
@@ -192,5 +184,5 @@
         ],
         "water_creature": []
     },
-    "temperature": -0.8
+    "temperature": -0.5
 }

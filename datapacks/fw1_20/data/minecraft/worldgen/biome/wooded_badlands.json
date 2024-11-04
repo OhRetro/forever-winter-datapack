@@ -6,12 +6,9 @@
             "minecraft:canyon"
         ]
     },
-    "creature_spawn_probability": 0.04,
     "downfall": 0.4,
     "effects": {
         "fog_color": 12638463,
-        "foliage_color": 10387789,
-        "grass_color": 9470285,
         "mood_sound": {
             "block_search_extent": 8,
             "offset": 2.0,
@@ -63,7 +60,6 @@
             "minecraft:ore_redstone",
             "minecraft:ore_redstone_lower",
             "minecraft:ore_diamond",
-            "minecraft:ore_diamond_medium",
             "minecraft:ore_diamond_large",
             "minecraft:ore_diamond_buried",
             "minecraft:ore_lapis",
@@ -107,20 +103,7 @@
             }
         ],
         "axolotls": [],
-        "creature": [
-            {
-                "type": "minecraft:armadillo",
-                "maxCount": 2,
-                "minCount": 1,
-                "weight": 6
-            },
-            {
-                "type": "minecraft:wolf",
-                "maxCount": 8,
-                "minCount": 4,
-                "weight": 2
-            }
-        ],
+        "creature": [],
         "misc": [],
         "monster": [
             {
@@ -183,5 +166,5 @@
         "water_ambient": [],
         "water_creature": []
     },
-    "temperature": -2.0
+    "temperature": -0.5
 }

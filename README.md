@@ -5,7 +5,7 @@ Turn your world into a winter wonderland! **Forever Winter** transforms all Over
 - **All Biomes Covered in Snow:** All biomes' temperature have dropped to negatives and their foliage have changed, all hot biomes such as: Deserts, Badlands, Savannas and their variations are also cold and covered in snow
 - **Only the biomes are changed**: It's the only thing it changes, whether you want the world to be snowing forever or snowing normally is up to you
 - **Supported Biomes:** Vanilla, more is planned
-- **Supported Versions:** 1.21 - 1.21.3, more is planned
+- **Supported Versions:** 1.20 – 1.21.3, more is planned
 
 ## 📸 Screenshots
 [More in the Gallery page](https://modrinth.com/project/forever-winter/gallery)
