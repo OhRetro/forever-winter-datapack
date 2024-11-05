@@ -1,5 +1,6 @@
 import os
 import json
+from tkinter import filedialog
 
 # Snowy Taiga Settings
 TARGET_VALUES = {
@@ -53,6 +54,8 @@ def apply_values(directory: str):
                 data: dict = json.load(file)
 
             merge_dicts(data, TARGET_VALUES)
+            # data.clear()
+            # data.update(TARGET_VALUES)
 
             effects: dict = data.get("effects", {})
             effects.pop("grass_color", None)
@@ -64,7 +67,7 @@ def apply_values(directory: str):
             print("")
 
 if __name__ == "__main__":
-    target_ver = "1_21_2"
-    target_dir = f"../datapacks/fw{target_ver}/data/minecraft/worldgen/biome"
+    selected_dir = filedialog.askdirectory(initialdir="../datapacks/", mustexist=True, title="Select a namespace")
+    target_dir = f"{selected_dir}/worldgen/biome"
     filter(target_dir)
     apply_values(target_dir)
