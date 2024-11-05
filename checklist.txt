@@ -1,16 +1,18 @@
-Version: 1.1.0
+Normal Edtion
 
 O - 57 - 1.21.2/3
 O - 48 - 1.21(.1)
 O - 41 - 1.20.5/6
 O - 26 - 1.20.3/4
 O - 18 - 1.20.2
-O - 15 - 1.20(.1) - Shows warning about the datapack been made for a older version, but works fine
+X? - 15 - 1.20(.1) - Shows warning about the datapack been made for a older version, but works fine, *sometimes validation dont pass*
 O - 12 - 1.19.4
-X - 0 -
 
+"10 Below" Edtion
 
-
-
-
+? - 10 - 1.19 – 1.19.3
+X - 9 - 1.18.2 - dont validate
+O - 8 - 1.18 – 1.18.1
+X - 7 - 1.17 – 1.17.1 - dont validate
+O - 6 - 1.16.2 – 1.16.5
 

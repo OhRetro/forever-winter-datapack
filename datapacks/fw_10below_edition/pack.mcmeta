@@ -1,0 +1,45 @@
+{
+    "pack": {
+		"supported_formats": {
+				"min_inclusive": 6,
+				"max_inclusive": 10 
+			},
+        "pack_format": 6,
+        "description": [
+			{
+				"text": "Makes all biomes on the overworld snowy.",
+				"color": "dark_aqua"
+			},
+			{
+				"text": " [10 Below]",
+				"color": "white"
+			}
+		]
+    },
+	"overlays": {
+		"entries": [
+			{
+				"formats": {
+					"min_inclusive": 7,
+					"max_inclusive": 7 
+				},
+				"directory": "fw1_17"
+			},
+			{
+				"formats": {
+					"min_inclusive": 8,
+					"max_inclusive": 9 
+				},
+				"directory": "fw1_18"
+			},
+			{
+				"formats": {
+					"min_inclusive": 10,
+					"max_inclusive": 10 
+				},
+				"directory": "fw1_19"
+			}
+		]
+	
+	}
+}

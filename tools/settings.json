@@ -1,0 +1,77 @@
+{
+    "template": {
+        "1.19.4": {
+            "downfall": 0.4,
+            "temperature": -0.5,
+            "effects": {
+                "fog_color": 12638463,
+                "sky_color": 8625919,
+                "water_color": 4020182,
+                "water_fog_color": 329011
+            },
+            "has_precipitation": true
+        },
+        "pre1.19.4": {
+            "downfall": 0.4,
+            "temperature": -0.5,
+            "effects": {
+                "fog_color": 12638463,
+                "sky_color": 8625919,
+                "water_color": 4020182,
+                "water_fog_color": 329011
+            },
+            "precipitation": "snow"
+        }
+    },
+    "datapacks": [
+        {
+            "name": "fw",
+            "mode": "1.19.4",
+            "namespaces": ["minecraft"],
+            "overlays": [
+                {
+                    "dir": "fw1_20",
+                    "mode": "1.19.4",
+                    "namespaces": ["minecraft"]
+                },
+                {
+                    "dir": "fw1_21",
+                    "mode": "1.19.4",
+                    "namespaces": ["minecraft"]
+                },
+                {
+                    "dir": "fw1_21_2",
+                    "mode": "1.19.4",
+                    "namespaces": ["minecraft"]
+                }
+            ]
+        },
+        {
+            "name": "fw_10below_edition",
+            "mode": "pre1.19.4",
+            "namespaces": ["minecraft"],
+            "overlays": [
+                {
+                    "dir": "fw1_17",
+                    "mode": "pre1.19.4",
+                    "namespaces": ["minecraft"]
+                },
+                {
+                    "dir": "fw1_18",
+                    "mode": "pre1.19.4",
+                    "namespaces": ["minecraft"]
+                },
+                {
+                    "dir": "fw1_18_2",
+                    "mode": "pre1.19.4",
+                    "namespaces": ["minecraft"]
+                },
+                {
+                    "dir": "fw1_19",
+                    "mode": "pre1.19.4",
+                    "namespaces": ["minecraft"]
+                }
+            ]
+        }
+    ]
+}
