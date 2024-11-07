@@ -23,6 +23,20 @@
 			},
 			{
 				"formats": {
+					"min_inclusive": 26,
+					"max_inclusive": 41 
+				},
+				"directory": "terra1_20_3"
+			},
+			{
+				"formats": {
+					"min_inclusive": 41,
+					"max_inclusive": 41 
+				},
+				"directory": "terra1_20_5"
+			},
+			{
+				"formats": {
 					"min_inclusive": 48,
 					"max_inclusive": 48 
 				},
@@ -36,6 +50,5 @@
 				"directory": "fw1_21_2"
 			}
 		]
-	
 	}
 }

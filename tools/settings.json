@@ -27,22 +27,32 @@
         {
             "name": "fw",
             "mode": "1.19.4",
-            "namespaces": ["minecraft"],
+            "namespaces": ["minecraft", "terralith"],
             "overlays": [
                 {
                     "dir": "fw1_20",
                     "mode": "1.19.4",
-                    "namespaces": ["minecraft"]
+                    "namespaces": ["minecraft", "terralith"]
+                },
+                {
+                    "dir": "terra1_20_3",
+                    "mode": "1.19.4",
+                    "namespaces": ["terralith"]
+                },
+                {
+                    "dir": "terra1_20_5",
+                    "mode": "1.19.4",
+                    "namespaces": ["terralith"]
                 },
                 {
                     "dir": "fw1_21",
                     "mode": "1.19.4",
-                    "namespaces": ["minecraft"]
+                    "namespaces": ["minecraft", "terralith"]
                 },
                 {
                     "dir": "fw1_21_2",
                     "mode": "1.19.4",
-                    "namespaces": ["minecraft"]
+                    "namespaces": ["minecraft", "terralith"]
                 }
             ]
         },
@@ -58,11 +68,6 @@
                 },
                 {
                     "dir": "fw1_18",
-                    "mode": "pre1.19.4",
-                    "namespaces": ["minecraft"]
-                },
-                {
-                    "dir": "fw1_18_2",
                     "mode": "pre1.19.4",
                     "namespaces": ["minecraft"]
                 },

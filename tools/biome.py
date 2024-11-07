@@ -15,9 +15,13 @@ def merge_dicts(dict_a: dict, dict_b: dict):
             # print(f"updated dict A \"{key}\" = {value}")
             
 def filter(directory: str):
+    # filter_words = (
+    #     "snowy", "frozen", "ice",
+    #     "cold", "winter"
+    # )
+    
     filter_words = (
-        "snowy", "frozen", "ice",
-        "cold", "winter"
+        "snowy", 
     )
     
     filter_pattern = re.compile(rf"(_({'|'.join(filter_words)})_)|^({'|'.join(filter_words)})_|_({'|'.join(filter_words)})$")
